@@ -54,7 +54,7 @@
   position: absolute;
   left: 64px;
   bottom: 30px;
-  width: 388px;
+  max-width: 388px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -223,9 +223,11 @@
   font-size: 36px;
   font-weight: normal;
   max-width: 400px;
+  justify-content: center;
 }
 
 .feynman__link {
+  text-decoration: none;
   position: absolute;
   color: #2f80ed;
   top: 50%;
